@@ -1,12 +1,8 @@
-import { useSelector } from "react-redux";
-const  App = () => {
+import Layout from "./pages/Layout";
 
-  const user = useSelector((state)=> state.user);
-  console.log(user,'user')
+const  App = () => {
   return (
-    <div className="App">
-     App 
-    </div>
+     <Layout /> 
   );
 }
 
